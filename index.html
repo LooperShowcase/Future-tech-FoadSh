@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>AI voice Assistant </title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+      
+</head>
+<body>
+
+    <div class="container" >
+        <center>
+            <h1>voice assistant by foad</h1>
+            <br>
+            <button onclick="speak()" id="Allow">Allow Audio</button>
+<br>
+            <form onsubmit="event.preventDefault();
+             conversationUserAdd(document.getElementById('input-text').value)
+            open_ai();
+            document.getElementById('input-text').value='';
+            ">
+            <br>
+         <input type="text" id="input-text" placeholder="search !" >
+         <br>
+        
+         <button id="submit-button">submit</button>
+         <br>
+        </form>
+        </center>
+        <div id="chat-container"></div>
+    </div>
+  
+
+    </h1>
+</body>
+</html>
