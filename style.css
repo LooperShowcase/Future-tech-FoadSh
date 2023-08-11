@@ -95,6 +95,7 @@ button#submit-button:hover {
 .assistant {
     background-color: #000; /* Black bubble for assistant */
     color: #00cc00; /* Green font color */
+    margin: 30px 0;
 }
 
 /* Add animation to the chat bubbles */
